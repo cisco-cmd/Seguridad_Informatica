@@ -1,0 +1,210 @@
+	html,body {
+		color: #000;
+		font-family: Arial, Helvetica, sans-serif; 
+		background-color: #ee5b5b;
+		background-image: url("captiveportal-capt.png");
+    	background-size: cover;
+	}
+	
+	header {
+		width: 712px; 
+		height: auto;
+		margin-top: -5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		padding: 5px;
+		border: 1px solid transparent;
+		background-color: rgba(0, 26, 65, 0.466);
+		border-radius: 20px;
+	}
+	
+	.tit {
+		font-size: 30px; 
+		font-style: bold;
+		font-family: candara;
+		text-align: center;
+		text-shadow: 1px 1px 5px rgba(189, 212, 255, 0.74); 
+		text-transform: uppercase;
+		color:aliceblue;
+	}
+	
+	section {
+		clear: both; 
+		width: 712px; 
+		height: auto;
+		margin: 0px auto; 
+		padding: 5px;
+		border: 1px solid transparent;
+		background-color: rgba(0, 26, 65, 0.466);
+		border-radius: 20px;
+	}
+	
+	.pie {
+		clear: both;
+		width: 612px;
+		height: auto;
+		margin: 0px auto;
+		padding: 5px;
+		border: 1px solid transparent;	
+	}
+	
+	img {
+		width: 220px;
+		height: 190px;
+		position: relative;
+		top: 0px;
+		left: 250px;
+	}
+	
+	.form {
+		width: 512px; 
+		height: auto;
+		margin: 10px auto; 
+		padding: 15px;
+		border: 1px solid transparent;
+		border-radius: 20px;
+		font-family: candara;
+		color: rgb(255, 255, 255);
+
+	}
+	
+	p {
+		color:aliceblue;
+		text-align: center;
+		font-size: 15px;
+		text-transform: uppercase;
+		margin-top: 100px;
+		font-family: candara;
+
+	}
+	
+	span {
+		font-weight: bolder;
+		color: rgb(38, 139, 255);
+		text-decoration: underline;
+	}
+	
+	input[type="text"] {
+		display: block;
+		width: 200px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -20px;
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.911);
+		border-color: rgb(101, 173, 255);
+		border-width: 5px;
+		color:rgb(56, 71, 95);
+		font-weight: bold;
+		padding: 8px;
+	}
+	
+	input[type="password"] {		
+		display: block;
+		width: 200px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.911);
+		border-color: rgb(101, 173, 255);
+		border-width: 5px;
+		color:rgb(56, 71, 95);
+		font-weight: bold;
+		padding: 8px;
+	}
+	
+	input[type="submit"] {
+		display: block;
+		width: 100px;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+		font-weight: bolder;
+		border-radius: 20px;
+		background-color: rgba(255, 255, 255, 0.911);
+		border-color: rgb(101, 173, 255);
+		border-width: 5px;
+		color:rgb(56, 71, 95);
+		font-weight: bold;
+		padding: 8px;
+	}
+	
+	input[type="submit"]:hover {
+		background-color: rgb(43, 64, 121);
+		color: rgb(255, 255, 255);
+		border-color: rgb(255, 255, 255);
+	}
+	
+	table {
+		margin-top: -50px;
+		margin-left: -30px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		width: 612px;
+		height: auto;
+		padding: 2px;
+		text-align: center;
+	}
+	
+	table tr {
+		margin-top: -50px;
+		text-align: center;
+	}
+	
+	table td {
+		margin-top: -50px;
+		text-align: center;
+		font-weight: bolder;
+		font-size: 15px;
+		font-family: candara;
+		text-shadow: 1px 1px 5px rgba(189, 212, 255, 0.74); 
+		text-transform: uppercase;
+		color:aliceblue;
+	}
+	
+	#error {
+		color: rgb(50, 51, 54);
+		font-weight: bolder;
+		text-align: center;
+		font-size: 15px;
+		text-decoration: underline;
+		text-transform: uppercase;
+		margin-top: -5px;
+	}
+	
+	#aviso {
+		font-weight: bolder;
+		text-align: center;
+		font-size: 15px;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+	
+	.form {
+		font-weight: bolder;
+		text-align: center;
+		position: relative;
+		top: 10px;
+		left: 0px;
+	}
+
+	.pie2 {
+
+		font-size: 20px; 
+		font-style: bold;
+		font-family: candara;
+		text-align: center;
+		text-shadow: 1px 1px 5px rgba(189, 212, 255, 0.74); 
+		text-transform: uppercase;
+		color:aliceblue;
+		background-color: rgba(0, 26, 65, 0.466);
+		padding-bottom: 50px;
+		padding-top: 50px;
+		margin-top: 50px;
+
+	}

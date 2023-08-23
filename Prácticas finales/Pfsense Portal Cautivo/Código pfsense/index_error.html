@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Página de Autenticación</title>
+	<link rel="stylesheet" href="captiveportal-index.css" media="screen" />
+	<script src="captiveportal-validator1.js"></script>
+	<script src="captiveportal-validator2.js"></script>
+</head>
+<body>
+	<header>
+		<h1 class="tit">Portal Cautivo</h1>
+		<h3 class="tit">Página de Autenticación</h3>
+	</header>
+	<section>
+		<p>Para poder Acceder a la Red y para Navegar en la Internet, 
+		deberá ingresar su <span>usuario y contraseña</span></p>
+		<form method="post" action="$PORTAL_ACTION$" enctype="application/x-www-form-urlencoded" onsubmit="validator1()">
+			<p class="form">Usuario:</p> <input type="text" id="user" name="auth_user" />
+			<p class="form">Contraseña:</p> <input type="password" id="pass" name="auth_pass" />
+			<input type="hidden" name="redirurl" value="$PORTAL_REDIRURL$" />
+			<input type="submit" name="accept" value="Acceder" />
+		</form>
+	<footer class=pie>
+		<script src="captiveportal-tiempoactual.js"></script>
+		<table border="0" cellpadding="5" cellspacing="0">
+			<tr>
+				<td id="fecha"></td>
+				<td id="hora"></td>
+			</tr>
+		</table>
+		<script src="captiveportal-funciones.js"></script>
+	</footer>
+	</section>
+	<footer class=pie2>
+		<pre>&copy; 2022 Portal Cautivo | Pfsense
+ 
+Juan Carlos Navidad</pre>
+	  </footer>
+</body>
+</html>
